@@ -6,7 +6,112 @@
     <title>
       YARA de Lattafa le parfum élégan pour l'été et toutes les saisons
     </title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-color: #1a202c;
+        color: #e2e8f0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .title {
+        color: #f6ad55;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+        transition: color 0.3s ease;
+      }
+
+      .title:hover {
+        color: #fbd38d;
+      }
+
+      .subtitle {
+        color: #f6ad55;
+        margin-top: 20px;
+        font-size: 1.5em;
+        transition: color 0.3s ease;
+      }
+
+      .subtitle:hover {
+        color: #fbd38d;
+      }
+
+      .section {
+        margin-bottom: 40px;
+      }
+
+      .paragraph {
+        margin: 15px 0;
+        line-height: 1.6;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .list {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      .list-item {
+        margin: 10px 0;
+        line-height: 1.6;
+        opacity: 0;
+        animation: fadeIn 1s 0.5s forwards;
+      }
+
+      @media (max-width: 768px) {
+        .title {
+          font-size: 1.5em;
+        }
+
+        .subtitle {
+          font-size: 1.2em;
+        }
+
+        .paragraph {
+          font-size: 0.9em;
+        }
+
+        .list-item {
+          font-size: 0.9em;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .title {
+          font-size: 1.2em;
+        }
+
+        .subtitle {
+          font-size: 1em;
+        }
+
+        .paragraph {
+          font-size: 0.8em;
+        }
+
+        .list-item {
+          font-size: 0.8em;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">
